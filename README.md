@@ -13,7 +13,8 @@ Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like 
 - SweetAlert2  
 
 **Website Link:**  
-[https://www.eki.my.id/]([https://portfolio-aouq.vercel.app/])  
+## 🔗 Live Website
+[Klik di sini untuk melihat website](https://portfolio-aouq.vercel.app/)
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
 
