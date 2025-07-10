@@ -94,8 +94,8 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["content creator", "Tech Enthusiast", "IT Enthusiast"];
-const TECH_STACK = ["React", "Node.js", "Bootstrap", "PHP", "Laravel", "MySQL"];
+const WORDS = ["UI/UX Designer", "Tech Enthusiast", "IT Enthusiast"];
+const TECH_STACK = ["React", "Node.js", "Tailwind", "PHP", "Laravel", "MySQL", "Figma"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/ojannne" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/fauzan-nasyruddin-993132313/" },
@@ -211,7 +211,7 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  Sebagai & content creator, saya membangun website yang inovatif, fungsional, dan mudah digunakan, dengan mengintegrasikan teknologi frontend dan backend untuk solusi digital yang efektif.
+                  As a Fullstack Developer and Content Creator, I build user-friendly, functional websites by integrating frontend and backend technologies to deliver efficient digital solutions.
                 </p>
 
                 {/* Tech Stack */}

@@ -106,7 +106,7 @@ const ProjectDetails = () => {
     const projects = [
       {
         id: 1,
-        Img: "/img-project/tebaslahan.png",
+        Img: "/img-project/app-tebaslahan.png",
         Title: "Aplikasi Web E-commerce ",
         Description: "Aplikasi e-commerce modular menggunakan Laravel dan JavaScript, dengan fitur seperti katalog produk, manajemen pesanan, dan UI interaktif.",
         Link: "https://tebaslahan.id/",
@@ -121,7 +121,7 @@ const ProjectDetails = () => {
       },
       {
         id: 2,
-        Img: "/img-project/app-inventorty-det.png",
+        Img: "/img-project/app-inventorti.png",
         Title: "Aplikasi Web Inventory ",
         Description: "Aplikasi manajemen inventory berbasis Laravel dan JavaScript yang memungkinkan pengguna mengelola stok barang, transaksi masuk/keluar, serta laporan data secara efisien melalui antarmuka yang responsif.",
         Link: "https://dabelyuland.id/login/",
@@ -135,6 +135,57 @@ const ProjectDetails = () => {
           "Akun demo role petugas1 (petugas1@gmail.com / petugas123)"
         ],
         TechStack: ["Laravel", "JavaScript", "Blade", "MySQL", "Bootstrap"]
+      },
+      {
+        id: 3,
+        Img: "/img-project/web-donasi.png",
+        Title: "Website LandingPage Donasi ",
+        Description: "Aplikasi manajemen inventory berbasis Laravel dan JavaScript yang memungkinkan pengguna mengelola stok barang, transaksi masuk/keluar, serta laporan data secara efisien melalui antarmuka yang responsif.",
+        Link: "https://ornate-malabi-52ec8e.netlify.app/#hero",
+        Features: [
+          "Tampilan hero section yang menarik",
+          "Informasi program donasi secara ringkas dan jelas",
+          "Progress bar capaian donasi",
+          "Tombol Call to Action (Donasi Sekarang)",
+          "Navigasi smooth scroll",
+          "Desain responsif untuk mobile & desktop",
+          "Animasi ringan untuk meningkatkan interaksi"
+        ],
+        TechStack: ["HTML", "Bootstrap", "CSS Vanilla","JavaScript", "Netlify"]
+      },
+      {
+        id: 4,
+        Img: "/img-project/web-promptin.png",
+        Title: "Website Promptin AI Gratis ",
+        Description: "Website Promptin AI Gratis adalah platform landingpage yang menyediakan berbagai kumpulan prompt AI siap pakai untuk keperluan ChatGPT, Midjourney, Notion AI, dan lainnya. Dirancang dengan tampilan modern, ringan, dan user-friendly agar pengguna bisa menjelajahi dan menyalin prompt dengan mudah tanpa login atau biaya.",
+        Link: "https://ornate-malabi-52ec8e.netlify.app/#hero",
+        Features: [
+          "Kumpulan prompt AI yang dikategorikan (ChatGPT, Midjourney, Notion, dll)",
+          "Tombol salin prompt sekali klik (copy to clipboard)",
+          "Pencarian prompt secara real-time",
+          "Tampilan bersih dan minimalis",
+          "Desain responsif untuk mobile dan desktop",
+          "Tanpa login & 100% gratis digunakan",
+          "Navigasi smooth scroll antar bagian"
+        ],
+        TechStack: ["HTML", "Tailwind CSS", "JavaScript", "Netlify"]
+      },
+      {
+        id: 5,
+        Img: "/img-project/web-company-real.png",
+        Title: "Website Company Real Estate",
+        Description: "Website company real estate untuk perusahaan properti yang dirancang untuk menampilkan informasi lengkap tentang layanan, portofolio proyek, profil perusahaan, dan kontak. Mengusung desain profesional dan elegan yang mencerminkan branding perusahaan real estate secara digital, serta responsif di berbagai perangkat.",
+        Link: "https://stalwart-monstera-a84efe.netlify.app/",
+        Features: [
+          "Kumpulan prompt AI yang dikategorikan (ChatGPT, Midjourney, Notion, dll)",
+          "Tombol salin prompt sekali klik (copy to clipboard)",
+          "Pencarian prompt secara real-time",
+          "Tampilan bersih dan minimalis",
+          "Desain responsif untuk mobile dan desktop",
+          "Tanpa login & 100% gratis digunakan",
+          "Navigasi smooth scroll antar bagian"
+        ],
+        TechStack: ["HTML", "Tailwind CSS", "JavaScript", "Netlify"]
       }
       
     

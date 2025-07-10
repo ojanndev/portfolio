@@ -129,35 +129,61 @@ export default function FullWidthTabs() {
   const projects = [
     {
       id: 1,
-      Img: "/img-project/tebaslahan.png",
+      Img: "/img-project/app-tebaslahan.png",
       Title: "Aplikasi Web E-commerce ",
       Description: "Aplikasi e-commerce modular menggunakan Laravel dan JavaScript, dengan fitur seperti katalog produk, manajemen pesanan, dan UI interaktif.",
       Link: "https://tebaslahan.id/"
     },
     {
       id: 2,
-      Img: "/img-project/app-inventory.png",
+      Img: "/img-project/app-inventori.png",
       Title: "Aplikasi Web Inventory ",
       Description: "Aplikasi manajemen inventory berbasis Laravel dan JavaScript yang memungkinkan pengguna mengelola stok barang, transaksi masuk/keluar, serta laporan data secara efisien melalui antarmuka yang responsif..",
       Link: "https://dabelyuland.id/login/"
+    },
+    {
+      id: 3,
+      Img: "/img-project/web-donasi.png",
+      Title: "Website Landingpage Donasi",
+      Description: "Sebuah website landingpage donasi yang dirancang untuk mengajak pengunjung berkontribusi dalam program sosial atau kemanusiaan. Menampilkan informasi program, progress donasi, dan tombol donasi langsung dengan tampilan yang humanis, responsif, dan mudah dipahami. Dibuat menggunakan HTML, Tailwind CSS, dan JavaScript.",
+      Link: "https://ornate-malabi-52ec8e.netlify.app/#hero"
+    },
+    {
+      id: 4,
+      Img: "/img-project/web-promptin.png",
+      Title: "Website Promptin AI Gratis",
+      Description: "Website Promptin AI Gratis adalah platform landingpage yang menyediakan berbagai kumpulan prompt AI siap pakai untuk keperluan ChatGPT, Midjourney, Notion AI, dan lainnya. Dirancang dengan tampilan modern, ringan, dan user-friendly agar pengguna bisa menjelajahi dan menyalin prompt dengan mudah tanpa login atau biaya.",
+      Link: "https://genuine-phoenix-7c1c8e.netlify.app/#galery"
+    },
+    {
+      id: 5,
+      Img: "/img-project/web-company-real.png",
+      Title: "Website Company Real Estate",
+      Description: "Website company real estate untuk perusahaan properti yang dirancang untuk menampilkan informasi lengkap tentang layanan, portofolio proyek, profil perusahaan, dan kontak. Mengusung desain profesional dan elegan yang mencerminkan branding perusahaan real estate secara digital, serta responsif di berbagai perangkat.",
+      Link: "https://stalwart-monstera-a84efe.netlify.app/properties"
     }
-   
     // Tambahkan project lain sesuai kebutuhan
   ];
 
   // Data certificate manual
   const certificates = [
     {
-      Img: "/img-project/certificated-canva.png" // ganti dengan nama file gambar di public jika ada
+      Img: "/img-certificate/certificated-canva.png" 
     },
     {
-      Img: "/img-project/certificated-canva-1.png"
+      Img: "/img-certificate/certificated-canva-1.png"
     },
     {
-      Img: "/img-project/certificated-canva-2.png"
+      Img: "/img-certificate/certificated-canva-2.png"
     }
     // Tambahkan certificate lain sesuai kebutuhan
   ];
+
+  // Sync projects and certificates count to localStorage
+  React.useEffect(() => {
+    localStorage.setItem("projects", JSON.stringify(projects));
+    localStorage.setItem("certificates", JSON.stringify(certificates));
+  }, [projects, certificates]);
 
   useEffect(() => {
     // Initialize AOS once

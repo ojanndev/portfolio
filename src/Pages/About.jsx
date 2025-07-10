@@ -235,8 +235,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-I’m a Fullstack Developer & Content Creator who blends clean code with creative vision.
-I craft digital experiences that are not just functional, but also engaging — combining backend logic, responsive frontend, and purposeful content creation.            </p>
+I'm a Fullstack Developer and UI/UX Designer who builds interactive websites using React, Tailwind, Laravel, and MySQL. Skilled in Figma for designing clean, responsive interfaces. Also a content creator sharing insights on web tech and digital design.</p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
               <a
